@@ -42,13 +42,13 @@
   transition: 0.3s;
 }
 
-.active-link,
-.nav-link:hover {
-  color: #2893bd;
+.active-link {
+  color: var(--main-blue);
 }
 
 .nav-link:hover {
-  color: #083c51ab;
+  color: #00bbff;
+  transform: scale(1.1);
 }
 
 @media screen and (max-width: 768px) {
@@ -70,7 +70,7 @@
     padding: 2rem 1.5rem 4rem;
     box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.35);
     border-radius: 1.5rem 1.5rem 0 0;
-    transition: 0.3s;
+    transition: 0.5s;
   }
 
   .show-menu {
@@ -120,4 +120,13 @@
   .nav-list {
     column-gap: 0;
   }
+}
+
+.logo-img {
+  width: 2rem;
+  height: 1.5rem;
+}
+
+.scroll-header {
+  box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.367);
 }
