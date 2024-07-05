@@ -1,0 +1,101 @@
+.skills-contain {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 70px;
+}
+
+.skills-titles,
+.skills-description {
+  padding-inline: 30px;
+}
+
+.skills-titles {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.skills-name {
+  font-size: 2.2rem;
+}
+
+.skills-number {
+  color: var(--title-color);
+  font-weight: 700;
+}
+
+.skills-number span {
+  color: var(--main-blue);
+}
+
+.skills-description {
+  margin-bottom: 30px;
+}
+
+.skills-bar,
+.skills-percentage {
+  height: 2px;
+}
+
+.skills-bar {
+  background: var(--main-darkblue);
+}
+
+.skills-percentage {
+  display: block;
+  background-color: var(--main-blue);
+  position: relative;
+}
+
+.skills-percentage span {
+  background-color: rgb(90, 90, 90);
+  border: 2px solid var(--border-color);
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  position: absolute;
+  right: 0;
+  top: -10px;
+}
+
+@media (max-width: 1200px) {
+  .skills-contain {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .skills-contain {
+    grid-template-columns: 1fr;
+    row-gap: 50px;
+  }
+
+  .skills-titles,
+  .skills-description {
+    padding-inline: 20px;
+  }
+
+  .skills-name {
+    font-size: 1.8rem;
+  }
+
+  .skills-number {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .skills-titles,
+  .skills-description {
+    padding-inline: 10px;
+  }
+
+  .skills-name {
+    font-size: 1.5rem;
+  }
+
+  .skills-number {
+    font-size: 1.2rem;
+  }
+}

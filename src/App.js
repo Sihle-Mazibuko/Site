@@ -7,6 +7,7 @@ import Contact from "./Components/Contact/Contact";
 import ToTop from "./Components/ToTop/totop";
 import About from "./Components/About/About";
 import Porfolio from "./Components/Porfolio/Porfolio";
+import Skills from "./Components/Skills/skills";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <main className="main">
         <Home />
         <About />
+        <Skills />
         <Services />
         <Porfolio />
         <Qualifications />

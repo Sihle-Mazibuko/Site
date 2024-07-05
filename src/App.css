@@ -15,6 +15,8 @@
   --main-blue: #2893bd;
   --main-darkblue: #06293a;
   --main-orange: #ff4000;
+  --shadow: 0px 5px 20px 0px rgba(75, 73, 95, 0.314);
+  --border-color: black;
 
   /*========== Font and typography ==========*/
   --body-font: "Lato", sans-serif;
@@ -73,7 +75,9 @@
 html {
   scroll-behavior: smooth;
 }
-
+.top {
+  margin-top: 80px;
+}
 body,
 button,
 input,
@@ -100,6 +104,13 @@ ul {
 
 a {
   text-decoration: none;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+.capitalize {
+  text-transform: capitalize;
 }
 
 button {
@@ -139,6 +150,19 @@ img {
   margin-right: auto;
 }
 
+.contain {
+  max-width: 968px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.d-flex {
+  display: flex;
+  justify-content: space-between;
+}
+.f-flex {
+  display: flex;
+}
+
 .grid {
   display: grid;
   gap: 1.5rem;
@@ -148,13 +172,24 @@ img {
   display: inline-block;
   background-color: hsl(0, 0%, 20%);
   color: #fff;
-  padding: 1.25rem 2rem;
-  border-radius: 1rem;
+  padding: 0.8rem 1.8rem;
+  border-radius: 60px;
   font-weight: 500;
+  transition: 0.3s;
+}
+.btn {
+  display: inline-block;
+  background-color: hsl(0, 0%, 27%);
+  color: #fff;
+  padding: 0.8rem 1.8rem;
+  border-radius: 60pc;
+  font-weight: 500;
+  transition: 0.3s;
 }
 
 .button:hover {
-  background-color: hsl(0, 0%, 60%);
+  background-color: hsl(0, 0%, 0%);
+  color: var(--main-blue);
 }
 
 .button-icon {
@@ -162,6 +197,20 @@ img {
 }
 
 .button-flex {
+  display: inline-block;
+  align-items: center;
+}
+
+.btn:hover {
+  background-color: hsl(0, 0%, 0%);
+  color: var(--main-blue);
+}
+
+.btn-icon {
+  margin-left: 0.5rem;
+}
+
+.btn-flex {
   display: inline-block;
   align-items: center;
 }
@@ -181,6 +230,14 @@ img {
   }
 
   .button-icon {
+    width: 22px;
+    height: 22px;
+  }
+  .btn {
+    padding: 1rem 1.7rem;
+  }
+
+  .btn-icon {
     width: 22px;
     height: 22px;
   }
@@ -212,4 +269,41 @@ img {
     margin-left: var(--mb-1);
     margin-right: var(--mb-1);
   }
+  .contain {
+    margin-left: var(--mb-1);
+    margin-right: var(--mb-1);
+  }
+}
+
+.btn-shadow {
+  padding: 18px 25px;
+  border-radius: 6px;
+  transition: 0.3s all ease;
+  cursor: pointer;
+  color: #000;
+  transition: 0.5s;
+}
+.btn-shadow {
+  background: linear-gradient(145deg, #e2e8ec, #ffffff);
+  box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
+}
+.btn-shadow:hover {
+  background: #ff014f;
+  color: white;
+  transform: translateY(-10px);
+}
+.box-shodow {
+  background: linear-gradient(145deg, #e2e8ec, #ffffff);
+  box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
+  border-radius: 10px;
+}
+
+.mtop {
+  margin-top: 40px;
+}
+
+.row,
+.left,
+.right {
+  width: 50%;
 }

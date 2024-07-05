@@ -13,8 +13,8 @@ const Services = () => {
       <h2 className="section-title">Services</h2>
       <span className="section-subtitle">What I offer</span>
 
-      <div className="service-contain container grid">
-        <div className="services-content">
+      <section className="service-contain container grid">
+        <article className="services-content">
           <div>
             <i
               className="uil uil-web-grid
@@ -41,7 +41,7 @@ const Services = () => {
                 onClick={() => toggleTab(0)}
               ></i>
 
-              <h3 className="services-modal-title">Product Designer</h3>
+              <h3 className="services-modal-title">Product Development</h3>
               <p className="services-modal-description">
                 Providing you with quality and functional work
               </p>
@@ -50,16 +50,8 @@ const Services = () => {
                 <li className="services-modal-service">
                   <i className="uil uil-check-circle services-modal-icon"></i>{" "}
                   <p className="services-modal-info">
-                    Developing the user interface (UI) and Providing a quality
-                    user experience (UX)
-                  </p>
-                </li>
-
-                <li className="services-modal-service">
-                  <i className="uil uil-check-circle services-modal-icon"></i>{" "}
-                  <p className="services-modal-info">
-                    Graphic design through making logos, branding materials and
-                    promotional content
+                    Creating innovative systems and products relevant to the
+                    needs of the modern world using modern ideologies{" "}
                   </p>
                 </li>
 
@@ -87,9 +79,9 @@ const Services = () => {
               </ul>
             </div>
           </div>
-        </div>
+        </article>
 
-        <div className="services-content">
+        <article className="services-content">
           <div>
             <i
               className="uil uil-arrow
@@ -116,7 +108,7 @@ const Services = () => {
 
               <h3 className="services-modal-title">UI/UX Designer</h3>
               <p className="services-modal-description">
-                Providing you with quality and functional work
+                Creating interfaces that prioritize users needs and preferences
               </p>
 
               <ul className="services-modal-services grid">
@@ -131,38 +123,24 @@ const Services = () => {
                 <li className="services-modal-service">
                   <i className="uil uil-check-circle services-modal-icon"></i>{" "}
                   <p className="services-modal-info">
-                    Graphic design through making logos, branding materials and
-                    promotional content
+                    Ensuring seamless and attractive user experiences through
+                    responsive design
                   </p>
                 </li>
 
                 <li className="services-modal-service">
                   <i className="uil uil-check-circle services-modal-icon"></i>{" "}
                   <p className="services-modal-info">
-                    Website, webapp and application design and development
-                  </p>
-                </li>
-
-                <li className="services-modal-service">
-                  <i className="uil uil-check-circle services-modal-icon"></i>{" "}
-                  <p className="services-modal-info">
-                    3D and 2D modelling and animation of assets for game
-                    development
-                  </p>
-                </li>
-
-                <li className="services-modal-service">
-                  <i className="uil uil-check-circle services-modal-icon"></i>{" "}
-                  <p className="services-modal-info">
-                    Designing and developing 2D and 3D games
+                    Making engaging and interactive elements to enhance user
+                    engagement and satisfaction{" "}
                   </p>
                 </li>
               </ul>
             </div>
           </div>
-        </div>
+        </article>
 
-        <div className="services-content">
+        <article className="services-content">
           <div>
             <i
               className="uil uil-edit
@@ -192,18 +170,10 @@ const Services = () => {
 
               <h3 className="services-modal-title">Visual Designer</h3>
               <p className="services-modal-description">
-                Providing you with quality and functional work
+                Making aesthetically pleasing works
               </p>
 
               <ul className="services-modal-services grid">
-                <li className="services-modal-service">
-                  <i className="uil uil-check-circle services-modal-icon"></i>{" "}
-                  <p className="services-modal-info">
-                    Developing the user interface (UI) and Providing a quality
-                    user experience (UX)
-                  </p>
-                </li>
-
                 <li className="services-modal-service">
                   <i className="uil uil-check-circle services-modal-icon"></i>{" "}
                   <p className="services-modal-info">
@@ -211,33 +181,11 @@ const Services = () => {
                     promotional content
                   </p>
                 </li>
-
-                <li className="services-modal-service">
-                  <i className="uil uil-check-circle services-modal-icon"></i>{" "}
-                  <p className="services-modal-info">
-                    Website, webapp and application design and development
-                  </p>
-                </li>
-
-                <li className="services-modal-service">
-                  <i className="uil uil-check-circle services-modal-icon"></i>{" "}
-                  <p className="services-modal-info">
-                    3D and 2D modelling and animation of assets for game
-                    development
-                  </p>
-                </li>
-
-                <li className="services-modal-service">
-                  <i className="uil uil-check-circle services-modal-icon"></i>{" "}
-                  <p className="services-modal-info">
-                    Designing and developing 2D and 3D games
-                  </p>
-                </li>
               </ul>
             </div>
           </div>
-        </div>
-      </div>
+        </article>
+      </section>
     </section>
   );
 };

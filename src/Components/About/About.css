@@ -1,0 +1,45 @@
+.about-skills {
+  row-gap: 1.25rem;
+}
+
+.a-skills-title {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.7rem;
+}
+
+.a-skills-name {
+  font-size: var(--normal-font-size);
+  font-weight: var(--font-normal);
+}
+
+.a-skills-number {
+  line-height: 1.2rem;
+}
+
+.a-skills-bar,
+.a-skills-percentage {
+  height: 7px;
+  border-radius: 0.25rem;
+}
+
+.a-skills-bar {
+  background-color: #d8d8d8;
+}
+
+.a-skills-percentage {
+  display: block;
+}
+
+.dev {
+  width: 60%;
+  background-color: var(--main-blue);
+}
+.ui {
+  width: 85%;
+  background-color: var(--main-blue);
+}
+.des {
+  width: 80%;
+  background-color: var(--main-blue);
+}
