@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.css": "/Site/static/css/main.5ac08a89.css",
-    "main.js": "/Site/static/js/main.724ac519.js",
+    "main.css": "/Site/static/css/main.228416b8.css",
+    "main.js": "/Site/static/js/main.4dd75206.js",
     "static/js/453.adc34edb.chunk.js": "/Site/static/js/453.adc34edb.chunk.js",
     "static/media/chefsc.png": "/Site/static/media/chefsc.373e3a4daceec770ba90.png",
     "static/media/narrative sc.png": "/Site/static/media/narrative sc.78b307df7b51bc297273.png",
     "static/media/profile2.jpg": "/Site/static/media/profile2.d0bbd765dc50408d2c2e.jpg",
     "static/media/profile.png": "/Site/static/media/profile.72669bd526fd47c3719e.png",
+    "static/media/CV.pdf": "/Site/static/media/CV.1490ffbec9e6f7a9c3e2.pdf",
     "static/media/DONUT.png": "/Site/static/media/DONUT.51b7cb9e16a502b2d50d.png",
     "static/media/PORTFOLIO SC.png": "/Site/static/media/PORTFOLIO SC.ccea9a38294b9b7d7fd2.png",
     "static/media/sm-logo.png": "/Site/static/media/sm-logo.18cd15a4106d067c2dfc.png",
     "static/media/transport sc.png": "/Site/static/media/transport sc.21fad545e9dcba271d14.png",
     "index.html": "/Site/index.html",
-    "main.5ac08a89.css.map": "/Site/static/css/main.5ac08a89.css.map",
-    "main.724ac519.js.map": "/Site/static/js/main.724ac519.js.map",
+    "main.228416b8.css.map": "/Site/static/css/main.228416b8.css.map",
+    "main.4dd75206.js.map": "/Site/static/js/main.4dd75206.js.map",
     "453.adc34edb.chunk.js.map": "/Site/static/js/453.adc34edb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5ac08a89.css",
-    "static/js/main.724ac519.js"
+    "static/css/main.228416b8.css",
+    "static/js/main.4dd75206.js"
   ]
 }
