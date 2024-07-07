@@ -1,35 +1,18 @@
 import React from "react";
 import "./Portfolio.css";
-import PCard from "./P-Card";
 import PortfolioData from "./Porfolio_Data";
+import Works from "./Works";
 
 const Porfolio = () => {
   return (
-    <section className="portfolio top" id="portfolio">
-      <section className="container">
-        <article className="heading text-center">
-          <h2>Porfolio</h2>
-          <h3>View my proudest works</h3>
-        </article>
+    <>
+      <section className="portfolio section " id="porfolio">
+        <h2 className="section-title">Porfolio</h2>
+        <span className="section-subtitle">View my proudest works</span>
 
-        <article className="content grid">
-          {PortfolioData.map((value, index) => {
-            console.log(value.image);
-
-            return (
-              <PCard
-                key={index}
-                image={value.image}
-                category={value.category}
-                likes={value.Likes}
-                title={value.title}
-                i={value.description}
-              />
-            );
-          })}
-        </article>
+        <Works />
       </section>
-    </section>
+    </>
   );
 };
 

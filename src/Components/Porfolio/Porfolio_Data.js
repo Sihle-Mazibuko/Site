@@ -1,11 +1,12 @@
-const PortfolioData = [
+export const PortfolioData = [
   {
     id: 1,
     category: "Games",
     Likes: "160",
     title: "A 2D game I have developed",
     image: require("./Images/narrative sc.png"),
-    description: "",
+    description: "nnnnnnnnnnnnnnnnnnnnn",
+    github: "https://google.com",
   },
   {
     id: 2,
@@ -13,7 +14,7 @@ const PortfolioData = [
     Likes: "89",
     title: "A 2D game I have developed",
     image: require("./Images/chefsc.png"),
-    description: "",
+    description: "nnnnnnnnnnnnnnnnn",
   },
   {
     id: 3,
@@ -41,4 +42,20 @@ const PortfolioData = [
   },
 ];
 
-export default PortfolioData;
+export const projectsNav = [
+  {
+    name: "all",
+  },
+  {
+    name: "Games",
+  },
+  {
+    name: "Developments",
+  },
+  {
+    name: "Websites",
+  },
+  {
+    name: "Assets",
+  },
+];

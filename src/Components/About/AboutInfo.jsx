@@ -6,7 +6,7 @@ const AboutInfo = () => {
       <div className="a-skills-data">
         <div className="a-skills-title">
           <h3 className="a-skills-name">Development</h3>
-          <span className="a-skills-number ">6%</span>
+          <span className="a-skills-number ">60%</span>
         </div>
 
         <div className="a-skills-bar">
