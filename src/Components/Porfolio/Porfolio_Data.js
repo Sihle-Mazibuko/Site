@@ -129,7 +129,7 @@ export const PortfolioData = [
     id: 19,
     category: "Games",
     title: "Stick Game Clone",
-    image: require("./Images/STICK GAME CLONE.png"),
+    image: require("./Images/STICK GAME SC.png"),
     github: "https://github.com/Sihle-jpeg/Games",
   },
   {
