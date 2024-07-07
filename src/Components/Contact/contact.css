@@ -62,6 +62,11 @@
 
 .contact-button:hover .contact-button-icon {
   transform: translate(0.25rem);
+  color: var(--main-blue);
+}
+
+.contact-button:hover {
+  color: var(--main-blue);
 }
 
 .contact-form {

@@ -11,7 +11,7 @@ const WorkItems = ({ item }) => {
         target="_blank"
         rel="noopener noreferrer"
       >
-        View Github File{" "}
+        View project
         <i className="uil uil-arrow-right work-button-icon"></i>
       </a>
     </div>

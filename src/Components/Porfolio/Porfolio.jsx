@@ -1,6 +1,5 @@
 import React from "react";
 import "./Portfolio.css";
-import PortfolioData from "./Porfolio_Data";
 import Works from "./Works";
 
 const Porfolio = () => {
