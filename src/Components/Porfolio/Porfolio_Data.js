@@ -156,7 +156,7 @@ export const PortfolioData = [
   {
     id: 23,
     category: "Apps",
-    title: "E-Commerce Transpor Ticket App Prototype",
+    title: "E-Commerce Transport Ticket App Prototype",
     image: require("./Images/transport sc.png"),
     github: "https://github.com/Sihle-Mazibuko/Transport-Apps",
   },
