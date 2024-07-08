@@ -50,7 +50,7 @@ export const PortfolioData = [
   },
   {
     id: 8,
-    category: "Developments",
+    category: "Apps",
     title: "Recipe WebApp Prototype",
     image: require("./Images/eats sc.png"),
     github: "https://github.com/Sihle-Mazibuko/Recipe-App",
@@ -153,6 +153,13 @@ export const PortfolioData = [
     image: require("./Images/UV SC.png"),
     github: "https://github.com/Sihle-jpeg/Assets",
   },
+  {
+    id: 23,
+    category: "Apps",
+    title: "E-Commerce Transport Ticket App (Prototype)",
+    image: require("./Images/transport sc.png"),
+    github: "https://github.com/Sihle-jpeg/Assets",
+  },
 ];
 
 export const projectsNav = [
@@ -163,7 +170,7 @@ export const projectsNav = [
     name: "Games",
   },
   {
-    name: "Developments",
+    name: "Apps",
   },
   {
     name: "Websites",
