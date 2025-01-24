@@ -33,15 +33,15 @@
 }
 
 .dev {
-  width: 60%;
+  width: 75%;
   background-color: var(--main-blue);
 }
 .ui {
-  width: 85%;
+  width: 90%;
   background-color: var(--main-blue);
 }
 .des {
-  width: 80%;
+  width: 90%;
   background-color: var(--main-blue);
 }
 
