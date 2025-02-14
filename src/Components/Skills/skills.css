@@ -1,4 +1,4 @@
-/* .skills-contain {
+.skills-contain {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   row-gap: 70px;
@@ -98,6 +98,4 @@
   .skills-number {
     font-size: 1.2rem;
   }
-} */
-
-
+}

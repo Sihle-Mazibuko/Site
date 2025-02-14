@@ -33,11 +33,10 @@ export const skilldata = [
   },
   {
     id: "5",
-    name: "Angular & Vue.js",
+    name: "NEXT.js",
     percentage: "20",
-    description:
-      "Beginner: Basic understanding of Angular and Vue.js frameworks, including their component structures, routing, and state management.",
-    category: "front",
+    description: "Beginner: Basic understanding of Next.js framework.",
+    category: "back",
   },
   {
     id: "6",
