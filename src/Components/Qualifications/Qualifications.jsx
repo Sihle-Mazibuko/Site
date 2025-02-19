@@ -50,8 +50,8 @@ const Qualifications = () => {
 
   return (
     <section className="resume section " id="experience">
-      <h2 className="section-title">Resume</h2>
-      <span className="section-subtitle">My journey</span>
+      <h2 className="section-title">Education and Experience</h2>
+      <span className="section-subtitle"></span>
 
       <section className="resume-contain contain">
         <article className="resume-tabs">

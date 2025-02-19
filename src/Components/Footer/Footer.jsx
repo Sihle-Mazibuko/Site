@@ -2,18 +2,11 @@ import React from "react";
 import "./Footer.css";
 
 const Footer = () => {
+  const currentYear = new Date().getFullYear();
   return (
     <footer className="footer">
       <div className="footer-contain contain">
-        <h1 className="footer-title">Sihle</h1>
-
         <ul className="footer-list">
-          <li>
-            <a href="#about" className="footer-link">
-              About
-            </a>
-          </li>
-
           <li>
             <a href="#porfolio" className="footer-link">
               Projects
@@ -23,6 +16,12 @@ const Footer = () => {
           <li>
             <a href="#services" className="footer-link">
               Services
+            </a>
+          </li>
+
+          <li>
+            <a href="#experience" className="footer-link">
+              Experience
             </a>
           </li>
         </ul>
@@ -52,7 +51,7 @@ const Footer = () => {
         </div>
 
         <span className="footer-copy">
-          &#169; Sihle Mazibuko. All rights reserved
+          &#169; {currentYear} Sihle Mazibuko. All rights reserved
         </span>
       </div>
     </footer>

@@ -16,7 +16,7 @@ function App() {
       <NavBar />
       <main className="main">
         <Home />
-        <About />
+        {/* <About /> */}
         <Skills />
         <Services />
         <Porfolio />
