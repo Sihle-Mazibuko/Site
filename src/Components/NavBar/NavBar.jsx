@@ -33,19 +33,6 @@ const NavBar = () => {
                 <i className="uil uil-estate nav-icon"></i>Home
               </a>
             </li>
-
-            <li className="nav-item">
-              <a
-                href="#about"
-                onClick={() => setActiveNav("#about")}
-                className={
-                  activeNav === "#about" ? "nav-link active-link" : "nav-link"
-                }
-              >
-                <i className="uil uil-user nav-icon"></i>About
-              </a>
-            </li>
-
             <li className="nav-item">
               <a
                 href="#skills"
@@ -57,7 +44,6 @@ const NavBar = () => {
                 <i className="uil uil-file-alt nav-icon"></i>Skills
               </a>
             </li>
-
             <li className="nav-item">
               <a
                 href="#services"
@@ -68,10 +54,9 @@ const NavBar = () => {
                     : "nav-link"
                 }
               >
-                <i className="uil uil-bag nav-icon"></i>Services
+                <i className="uil uil-desktop nav-icon"></i>Services
               </a>
             </li>
-
             <li className="nav-item">
               <a
                 href="#porfolio"
@@ -86,6 +71,19 @@ const NavBar = () => {
               </a>
             </li>
 
+            <li className="nav-item">
+              <a
+                href="#experience"
+                onClick={() => setActiveNav("#experience")}
+                className={
+                  activeNav === "#experience"
+                    ? "nav-link active-link"
+                    : "nav-link"
+                }
+              >
+                <i className="uil uil-bag nav-icon"></i>Experience
+              </a>
+            </li>
             <li className="nav-item">
               <a
                 href="#contact"

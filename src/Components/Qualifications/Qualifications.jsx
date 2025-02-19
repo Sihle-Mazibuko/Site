@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./Qualifications.css";
-import data from "./info.json"; // Adjust the path as needed
+import data from "./info.json";
 
 const Qualifications = () => {
   const [toggleState, setToggleState] = useState(1);
@@ -49,7 +49,7 @@ const Qualifications = () => {
   };
 
   return (
-    <section className="resume section ">
+    <section className="resume section " id="experience">
       <h2 className="section-title">Resume</h2>
       <span className="section-subtitle">My journey</span>
 
@@ -74,7 +74,7 @@ const Qualifications = () => {
             }
             onClick={() => toggleTab(2)}
           >
-            <i className="uil uil-briefcase resume-icon"></i>Experience
+            <i className="uil uil-bag resume-icon"></i>Experience
           </div>
         </article>
 
