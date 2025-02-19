@@ -1,26 +1,27 @@
 export const skilldata = [
+  // Frontend Skills
   {
     id: "1",
-    name: "JavaScript",
-    percentage: "80",
+    name: "HTML & CSS",
+    percentage: "90",
     description:
-      "Intermediate: Proficient in advanced functions, OOP, asynchronous programming, ES6+ features, and error handling. Skilled in DOM manipulation, event handling, and using third-party libraries.",
+      "Advanced: Strong expertise in responsive design, Flexbox, CSS Grid, animations, and Tailwind CSS. Skilled in accessibility, SEO, and modern design principles.",
     category: "front",
   },
   {
     id: "2",
-    name: "HTML & CSS",
-    percentage: "90",
+    name: "JavaScript",
+    percentage: "80",
     description:
-      "Advanced: Expert in responsive design, Flexbox, CSS Grid, animations, and Tailwind CSS. Skilled in accessibility, SEO, and implementing modern design principles.",
+      "Advanced: Proficient in ES6+ features, OOP, asynchronous programming, error handling, and using third-party libraries. Skilled in DOM manipulation and event handling.",
     category: "front",
   },
   {
     id: "3",
     name: "ReactJS",
-    percentage: "70",
+    percentage: "75",
     description:
-      "Intermediate: Experienced in React hooks, context API, custom hooks, routing, and state management. Proficient in building scalable and performant React applications.",
+      "Intermediate-Advanced: Experienced with React hooks, context API, state management, custom hooks, routing, and performance optimization in React applications.",
     category: "front",
   },
   {
@@ -28,54 +29,61 @@ export const skilldata = [
     name: "D3.js",
     percentage: "50",
     description:
-      "Intermediate: Proficient in using D3.js for creating interactive and dynamic data visualizations, including charts, graphs, and maps.",
+      "Intermediate: Capable of creating interactive data visualizations, including charts, graphs, and maps using D3.js.",
     category: "front",
   },
+
+  // Backend Skills
   {
     id: "5",
-    name: "NEXT.js",
-    percentage: "20",
-    description: "Beginner: Basic understanding of Next.js framework.",
+    name: "Node.js",
+    percentage: "50",
+    description:
+      "Intermediate: Experience with REST APIs, Express.js, middleware, and asynchronous programming. Familiar with integrating databases like MongoDB.",
     category: "back",
   },
   {
     id: "6",
-    name: "Node.js",
-    percentage: "50",
+    name: "Next.js",
+    percentage: "30",
     description:
-      "Intermediate: Skilled in building REST APIs, middleware, and asynchronous programming using Node.js. Familiar with Express.js and integrating databases like MongoDB.",
+      "Beginner-Intermediate: Understanding of server-side rendering (SSR), static site generation (SSG), API routes, and performance optimization.",
     category: "back",
   },
   {
     id: "7",
     name: "C#",
-    percentage: "65",
+    percentage: "45",
     description:
-      "Intermediate: Proficient in advanced OOP concepts, generics, delegates, LINQ, and asynchronous programming. Familiar with unit testing and working with frameworks like .NET.",
+      "Intermediate: Proficient in OOP, generics, delegates, LINQ, and async programming. Familiar with .NET development and unit testing.",
     category: "back",
   },
   {
     id: "8",
-    name: "Unity",
-    percentage: "85",
-    description:
-      "Advanced: Expert in Unity game development, including scripting, physics, AI, animations, and optimization. Proficient in C# within Unity for creating complex projects.",
-    category: "game-dev",
-  },
-  {
-    id: "9",
     name: "Python",
-    percentage: "20",
+    percentage: "25",
     description:
-      "Beginner: Basic knowledge of syntax, data types, loops, conditionals, and writing simple functions. Familiar with basic scripting tasks.",
+      "Beginner: Basic knowledge of syntax, data types, functions, and scripting for automation tasks.",
     category: "back",
   },
+
+  // Game Development
+  {
+    id: "9",
+    name: "Unity",
+    percentage: "90",
+    description:
+      "Advanced: Expert in Unity development, including scripting, physics, AI, animations, and performance optimization using C#.",
+    category: "game-dev",
+  },
+
+  // Design & UI/UX
   {
     id: "10",
     name: "UI/UX",
     percentage: "80",
     description:
-      "Intermediate: Skilled in creating wireframes, prototypes, and user flows. Proficient in using tools like Figma and Adobe XD for designing intuitive and accessible user interfaces.",
+      "Intermediate: Skilled in wireframing, prototyping, and user flows using Figma and Adobe XD. Strong focus on intuitive and accessible design.",
     category: "design",
   },
   {
@@ -83,7 +91,7 @@ export const skilldata = [
     name: "Blender",
     percentage: "50",
     description:
-      "Beginner: Basic experience with Blender for 3D modeling, texturing, and rendering. Capable of creating simple models and animations.",
+      "Beginner: Basic experience in 3D modeling, texturing, and rendering. Capable of creating simple models and animations.",
     category: "design",
   },
 ];

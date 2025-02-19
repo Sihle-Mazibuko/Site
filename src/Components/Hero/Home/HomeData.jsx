@@ -4,21 +4,21 @@ import { Typewriter } from "react-simple-typewriter";
 const HomeData = () => {
   return (
     <div className="home-data">
-      <h1 className="home-title">Sihle Mazibuko</h1>
+      <h1 className="home-title">Hi, I'm Sihle Mazibuko</h1>
       <h3 className="home-subtitle">
         I am a
         <span className="typew">
           {" "}
           <Typewriter
             words={[
-              "Professional Coder",
+              "Front End Developer",
               "Game Developer",
               "Web Developer",
-              "UI/UX Specialist",
+              "UI/UX Designer",
             ]}
             loop
             cursor
-            cursorStyle="|"
+            cursorStyle="_"
             typeSpeed={100}
             deleteSpeed={50}
             delaySpeed={1000}
@@ -27,7 +27,7 @@ const HomeData = () => {
       </h3>
       <p className="home-description">
         Welcome to my website, where creative excellence meets technological
-        brilliance
+        brilliance.
       </p>
 
       <a href="#contact" className="button button-flex">

@@ -13,6 +13,7 @@
   --body-color: hsl(var(--hue), var(--sat), 98%);
   --container-color: #fff;
   --main-blue: #2893bd;
+  --main-blue-bg: #dbe9ef;
   --main-darkblue: #06293a;
   --main-orange: #ff4000;
   --shadow: 0px 5px 20px 0px rgba(75, 73, 95, 0.314);
@@ -164,7 +165,7 @@ img {
 
 .button {
   display: inline-block;
-  background-color: hsl(0, 0%, 20%);
+  background-color: hsl(0, 0%, 31%);
   color: #fff;
   padding: 0.8rem 1.8rem;
   border-radius: 60px;

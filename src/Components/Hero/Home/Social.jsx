@@ -4,6 +4,14 @@ const Social = () => {
   return (
     <section className="home-social">
       <a
+        href="https://www.linkedin.com/in/sihle-mazibuko-3bb231215/"
+        className="home-social-icon"
+        target="_blank"
+      >
+        {" "}
+        <i className="uil uil-linkedin"></i>
+      </a>
+      <a
         href="https://github.com/Sihle-Mazibuko"
         className="home-social-icon"
         target="_blank"
@@ -17,14 +25,6 @@ const Social = () => {
         target="_blank"
       >
         <i className="uil uil-instagram"></i>
-      </a>
-      <a
-        href="https://www.linkedin.com/in/sihle-mazibuko-3bb231215/"
-        className="home-social-icon"
-        target="_blank"
-      >
-        {" "}
-        <i className="uil uil-linkedin"></i>
       </a>
     </section>
   );

@@ -11,7 +11,6 @@ const About = () => {
       <span className="section-subtitle">An introduction to me</span>
 
       <div className="about-contain contain grid">
-        <img src={Face} alt="Sihle Mazibuko" className="about-img" />
         <div className="about-data">
           <AboutInfo />
           <p className="about-description">

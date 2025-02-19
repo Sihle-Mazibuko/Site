@@ -7,7 +7,7 @@ import HomeData from "./HomeData";
 const Home = () => {
   return (
     <>
-      <section className="home section" id="home">
+      <section className="home sections section" id="home">
         <article className="home-contain contain grid">
           <div className="home-content grid">
             <Social />
