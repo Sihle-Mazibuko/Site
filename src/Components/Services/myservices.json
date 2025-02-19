@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "icon": "fa-solid fa-code",
+    "title": "Software Development",
+    "description": "End-to-end development of scalable and high-performing software solutions.",
+    "services": [
+      "Building full-stack applications using React, Node.js, Next.js, and other modern technologies.",
+      "Developing responsive and efficient websites, web apps, and mobile-friendly applications.",
+      "Architecting robust backend systems with APIs, databases, and cloud integrations.",
+      "Creating innovative digital solutions tailored to industry-specific needs."
+    ]
+  },
+  {
+    "id": 2,
+    "icon": "fa-solid fa-paint-brush",
+    "title": "UI/UX Design",
+    "description": "Crafting intuitive and visually engaging user experiences for web and mobile.",
+    "services": [
+      "Designing user-centric interfaces using Figma and Adobe tools, following best design principles.",
+      "Creating wireframes, prototypes, and high-fidelity designs that enhance usability and engagement.",
+      "Ensuring seamless user experiences through responsive design and accessibility considerations.",
+      "Optimizing workflows and interactions to improve user retention and satisfaction."
+    ]
+  },
+  {
+    "id": 3,
+    "icon": "fa-solid fa-palette",
+    "title": "Visual Design",
+    "description": "Elevating brands through compelling visuals and strategic design.",
+    "services": [
+      "Designing logos, branding materials, and marketing content that establish strong brand identities.",
+      "Creating professional and eye-catching promotional graphics for digital and print media.",
+      "Developing engaging 2D and 3D assets for branding, marketing, and digital experiences.",
+      "Enhancing brand storytelling with thoughtful typography, color theory, and visual hierarchy."
+    ]
+  }
+]
