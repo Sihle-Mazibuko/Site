@@ -28,7 +28,10 @@ const HomeData = () => {
       </h3>
       <p className="home-description">
         Welcome to my website, where creative excellence meets technological
-        brilliance.
+        brilliance. I'm a developer based in Johannesburg, South Africa. I
+        create functional websites, web applications, games and useful software
+        applications while adhering to UI/UX standards to ensure the best
+        products.
       </p>
 
       <a download="" href={CV} className="button button-flex">
