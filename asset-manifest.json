@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Site/static/css/main.ed3adf77.css",
-    "main.js": "/Site/static/js/main.fedc0a8e.js",
+    "main.css": "/Site/static/css/main.e7255e11.css",
+    "main.js": "/Site/static/js/main.1d793022.js",
     "static/js/453.5779cf73.chunk.js": "/Site/static/js/453.5779cf73.chunk.js",
     "static/media/apod site.png": "/Site/static/media/apod site.67c56eeb98af4baac62e.png",
     "static/media/Pistol.png": "/Site/static/media/Pistol.fd78da837fb539db4261.png",
@@ -19,6 +19,7 @@
     "static/media/profile.png": "/Site/static/media/profile.72669bd526fd47c3719e.png",
     "static/media/DONUT.png": "/Site/static/media/DONUT.51b7cb9e16a502b2d50d.png",
     "static/media/CV.pdf": "/Site/static/media/CV.0f82322de40794885aed.pdf",
+    "static/media/Resume.pdf": "/Site/static/media/Resume.a7c7d74bafadc1768b8f.pdf",
     "static/media/TLOF SC.png": "/Site/static/media/TLOF SC.d2604d9679eed6d594af.png",
     "static/media/BulletHell.png": "/Site/static/media/BulletHell.4d46eec5961fd58a6433.png",
     "static/media/BOMBER SC.png": "/Site/static/media/BOMBER SC.f0a8fc38634c5034d8cf.png",
@@ -34,12 +35,12 @@
     "static/media/revicons.ttf": "/Site/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/Site/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/Site/index.html",
-    "main.ed3adf77.css.map": "/Site/static/css/main.ed3adf77.css.map",
-    "main.fedc0a8e.js.map": "/Site/static/js/main.fedc0a8e.js.map",
+    "main.e7255e11.css.map": "/Site/static/css/main.e7255e11.css.map",
+    "main.1d793022.js.map": "/Site/static/js/main.1d793022.js.map",
     "453.5779cf73.chunk.js.map": "/Site/static/js/453.5779cf73.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ed3adf77.css",
-    "static/js/main.fedc0a8e.js"
+    "static/css/main.e7255e11.css",
+    "static/js/main.1d793022.js"
   ]
 }
