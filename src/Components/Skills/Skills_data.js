@@ -51,6 +51,14 @@ export const skilldata = [
     category: "back",
   },
   {
+    id: "12",
+    name: "TypeScript",
+    percentage: "60",
+    description:
+      "Intermediate: Understanding of advance type, type inference, utility types, interfcaes and how to intergrate TypeScript into React and Next.js",
+    category: "back",
+  },
+  {
     id: "7",
     name: "C#",
     percentage: "45",
