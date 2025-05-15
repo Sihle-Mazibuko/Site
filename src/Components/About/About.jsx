@@ -19,7 +19,7 @@ const About = () => {
             software applications while adhering to UI/UX standards to ensure
             the best products.
           </p>
-
+          {/* PDF HERE */}
           <a download="" href={CV} className="button button-flex">
             Download CV
           </a>
