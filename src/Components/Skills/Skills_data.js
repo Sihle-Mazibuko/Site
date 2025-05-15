@@ -102,6 +102,13 @@ export const skilldata = [
       "Beginner: Basic experience in 3D modeling, texturing, and rendering. Capable of creating simple models and animations.",
     category: "design",
   },
+  {
+    id: "12",
+    name: "Tailwind CSS",
+    percentage: "70",
+    description: "Intermediate: Skilled in styling.",
+    category: "design",
+  },
 ];
 
 export default skilldata;
