@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Site/static/css/main.e7255e11.css",
-    "main.js": "/Site/static/js/main.03b93d25.js",
+    "main.js": "/Site/static/js/main.d7dd16df.js",
     "static/js/453.5779cf73.chunk.js": "/Site/static/js/453.5779cf73.chunk.js",
     "static/media/apod site.png": "/Site/static/media/apod site.67c56eeb98af4baac62e.png",
     "static/media/Pistol.png": "/Site/static/media/Pistol.fd78da837fb539db4261.png",
@@ -18,7 +18,6 @@
     "static/media/TD RPG SC.png": "/Site/static/media/TD RPG SC.9528152f861ba9d33a1f.png",
     "static/media/profile.png": "/Site/static/media/profile.72669bd526fd47c3719e.png",
     "static/media/DONUT.png": "/Site/static/media/DONUT.51b7cb9e16a502b2d50d.png",
-    "static/media/CV.pdf": "/Site/static/media/CV.0f82322de40794885aed.pdf",
     "static/media/Resume.pdf": "/Site/static/media/Resume.a7c7d74bafadc1768b8f.pdf",
     "static/media/TLOF SC.png": "/Site/static/media/TLOF SC.d2604d9679eed6d594af.png",
     "static/media/BulletHell.png": "/Site/static/media/BulletHell.4d46eec5961fd58a6433.png",
@@ -26,6 +25,7 @@
     "static/media/Rig blambo.png": "/Site/static/media/Rig blambo.540504a69877455cfba9.png",
     "static/media/STICK GAME SC.png": "/Site/static/media/STICK GAME SC.4150cc3bb0ba976e61a7.png",
     "static/media/portfolio site.png": "/Site/static/media/portfolio site.c1838f11bd645f388262.png",
+    "static/media/CV.pdf": "/Site/static/media/CV.01cf1c426af56e476751.pdf",
     "static/media/music site.png": "/Site/static/media/music site.e3c5351cec952ca8baa3.png",
     "static/media/eats sc.png": "/Site/static/media/eats sc.8ee2f5465f1b65785155.png",
     "static/media/sm-logo.png": "/Site/static/media/sm-logo.18cd15a4106d067c2dfc.png",
@@ -36,11 +36,11 @@
     "static/media/revicons.woff": "/Site/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/Site/index.html",
     "main.e7255e11.css.map": "/Site/static/css/main.e7255e11.css.map",
-    "main.03b93d25.js.map": "/Site/static/js/main.03b93d25.js.map",
+    "main.d7dd16df.js.map": "/Site/static/js/main.d7dd16df.js.map",
     "453.5779cf73.chunk.js.map": "/Site/static/js/453.5779cf73.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e7255e11.css",
-    "static/js/main.03b93d25.js"
+    "static/js/main.d7dd16df.js"
   ]
 }
